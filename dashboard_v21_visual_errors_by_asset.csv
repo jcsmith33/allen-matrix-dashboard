@@ -1,0 +1,15 @@
+asset,state,daily_stop_status,ohlc_available,ohlc_range_ok,price_zone_scale_ok,trade_levels_scale_ok,projection_allowed,chart_y_scale_mode,visual_status,error_reason,action_taken
+ES,NOT_OPERABLE,STRONG_OK,True,True,True,True,True,OHLC_PLUS_VALID_ZONE,OK,,render normally
+NQ,NOT_OPERABLE,STRONG_OK,True,True,True,True,True,OHLC_PLUS_VALID_ZONE,OK,,render normally
+FDAX,NOT_OPERABLE,STRONG_OK,True,False,False,True,False,OHLC_PLUS_VALID_ZONE,WARNING,55 OHLC rows out of scale | price zone out of scale or not validated,exclude OHLC outliers from operative y-axis | hide zone in operative view
+RTY,NOT_OPERABLE,STRONG_OK,True,True,True,True,True,OHLC_PLUS_VALID_ZONE,OK,,render normally
+YM,NOT_OPERABLE,OK,True,True,True,True,True,OHLC_PLUS_VALID_ZONE,OK,,render normally
+GC,ACTIVE_SHORT,OK,True,False,True,True,True,ACTIVE_TRADE_OPERATIVE,WARNING,48 OHLC rows out of scale,exclude OHLC outliers from operative y-axis
+CL,NOT_OPERABLE,OK,True,True,True,True,True,OHLC_PLUS_VALID_ZONE,OK,,render normally
+SI,NOT_AVAILABLE,NOT_AVAILABLE,True,True,True,True,False,NOT_AVAILABLE_OHLC_ONLY,NOT_AVAILABLE_MODE,1 OHLC rows out of scale | state/daily stop NOT_AVAILABLE,exclude OHLC outliers from operative y-axis | disable validated projection and operative levels
+HG,NOT_AVAILABLE,NOT_AVAILABLE,True,False,True,True,False,NOT_AVAILABLE_OHLC_ONLY,NOT_AVAILABLE_MODE,29 OHLC rows out of scale | state/daily stop NOT_AVAILABLE,exclude OHLC outliers from operative y-axis | disable validated projection and operative levels
+QG,NOT_AVAILABLE,NOT_AVAILABLE,True,False,True,True,False,NOT_AVAILABLE_OHLC_ONLY,NOT_AVAILABLE_MODE,49 OHLC rows out of scale | state/daily stop NOT_AVAILABLE,exclude OHLC outliers from operative y-axis | disable validated projection and operative levels
+SPX,NOT_AVAILABLE,NOT_AVAILABLE,True,False,False,True,False,NOT_AVAILABLE_OHLC_ONLY,NOT_AVAILABLE_MODE,57 OHLC rows out of scale | price zone out of scale or not validated | state/daily stop NOT_AVAILABLE,exclude OHLC outliers from operative y-axis | hide zone in operative view | disable validated projection and operative levels
+VX,NOT_AVAILABLE,NOT_AVAILABLE,True,True,False,True,False,NOT_AVAILABLE_OHLC_ONLY,NOT_AVAILABLE_MODE,1 OHLC rows out of scale | price zone out of scale or not validated | state/daily stop NOT_AVAILABLE,exclude OHLC outliers from operative y-axis | hide zone in operative view | disable validated projection and operative levels
+US30Y,NOT_AVAILABLE,NOT_AVAILABLE,True,False,False,False,False,NOT_AVAILABLE_OHLC_ONLY,NOT_AVAILABLE_MODE,98 OHLC rows out of scale | price zone out of scale or not validated | state/daily stop NOT_AVAILABLE | trade levels out of scale,exclude OHLC outliers from operative y-axis | hide zone in operative view | disable validated projection and operative levels | move levels to out-of-scale/reference
+PLG,NOT_AVAILABLE,NOT_AVAILABLE,True,False,False,True,False,NOT_AVAILABLE_OHLC_ONLY,NOT_AVAILABLE_MODE,53 OHLC rows out of scale | price zone out of scale or not validated | state/daily stop NOT_AVAILABLE,exclude OHLC outliers from operative y-axis | hide zone in operative view | disable validated projection and operative levels

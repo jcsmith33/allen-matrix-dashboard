@@ -1,0 +1,29 @@
+check,status,evidence
+html_parse,PASS,basic html markers present
+js_node_check,PASS,/mnt/c/allenmatrix/tmp/dashboard_v21_check.js
+assets_loaded_14,PASS,"ES,NQ,FDAX,RTY,YM,GC,CL,SI,HG,QG,SPX,VX,US30Y,PLG"
+asset_change_works,PASS,selectors/watchlist present
+timeframe_change_works,PASS,timeframe handler present
+layers_work,PASS,layers present
+not_available_no_validated_projection,PASS,NOT_AVAILABLE projection disabled
+not_available_no_operational_axis,PASS,axis mode present
+si_not_available_clean,PASS,"{'asset': 'SI', 'state': 'NOT_AVAILABLE', 'daily_stop_status': 'NOT_AVAILABLE', 'ohlc_available': True, 'ohlc_range_ok': True, 'ohlc_sane_rows': 159, 'ohlc_outlier_rows': 1, 'last_close': 73.575, 'raw_ohlc_min': 61.21, 'raw_ohlc_max': 6639.0, 'sane_ohlc_min': 61.21, 'sane_ohlc_max': 121.785, 'price_zone_exists': True, 'price_zone_scale_ok': True, 'trade_levels_scale_ok': True, 'projection_allowed': False, 'projection_status': 'DISABLED', 'chart_y_scale_mode': 'NOT_AVAILABLE_OHLC_ONLY', 'visual_status': 'NOT_AVAILABLE_MODE', 'error_reason': '1 OHLC rows out of scale | state/daily stop NOT_AVAILABLE', 'action_taken': 'exclude OHLC outliers from operative y-axis | disable validated projection and operative levels'}"
+si_outliers_blocked,PASS,"{'asset': 'SI', 'state': 'NOT_AVAILABLE', 'daily_stop_status': 'NOT_AVAILABLE', 'ohlc_available': True, 'ohlc_range_ok': True, 'ohlc_sane_rows': 159, 'ohlc_outlier_rows': 1, 'last_close': 73.575, 'raw_ohlc_min': 61.21, 'raw_ohlc_max': 6639.0, 'sane_ohlc_min': 61.21, 'sane_ohlc_max': 121.785, 'price_zone_exists': True, 'price_zone_scale_ok': True, 'trade_levels_scale_ok': True, 'projection_allowed': False, 'projection_status': 'DISABLED', 'chart_y_scale_mode': 'NOT_AVAILABLE_OHLC_ONLY', 'visual_status': 'NOT_AVAILABLE_MODE', 'error_reason': '1 OHLC rows out of scale | state/daily stop NOT_AVAILABLE', 'action_taken': 'exclude OHLC outliers from operative y-axis | disable validated projection and operative levels'}"
+gc_active_short_clean,PASS,"{'asset': 'GC', 'state': 'ACTIVE_SHORT', 'daily_stop_status': 'OK', 'ohlc_available': True, 'ohlc_range_ok': False, 'ohlc_sane_rows': 112, 'ohlc_outlier_rows': 48, 'last_close': 4476.1, 'raw_ohlc_min': 1.56, 'raw_ohlc_max': 5049.4, 'sane_ohlc_min': 4100.0, 'sane_ohlc_max': 5049.4, 'price_zone_exists': True, 'price_zone_scale_ok': True, 'trade_levels_scale_ok': True, 'projection_allowed': True, 'projection_status': 'ENABLED', 'chart_y_scale_mode': 'ACTIVE_TRADE_OPERATIVE', 'visual_status': 'WARNING', 'error_reason': '48 OHLC rows out of scale', 'action_taken': 'exclude OHLC outliers from operative y-axis'}"
+es_not_operable_clean,PASS,"{'asset': 'ES', 'state': 'NOT_OPERABLE', 'daily_stop_status': 'STRONG_OK', 'ohlc_available': True, 'ohlc_range_ok': True, 'ohlc_sane_rows': 160, 'ohlc_outlier_rows': 0, 'last_close': 7575.5, 'raw_ohlc_min': 6353.25, 'raw_ohlc_max': 7632.25, 'sane_ohlc_min': 6353.25, 'sane_ohlc_max': 7632.25, 'price_zone_exists': True, 'price_zone_scale_ok': True, 'trade_levels_scale_ok': True, 'projection_allowed': True, 'projection_status': 'ENABLED', 'chart_y_scale_mode': 'OHLC_PLUS_VALID_ZONE', 'visual_status': 'OK', 'error_reason': '', 'action_taken': 'render normally'}"
+no_fetch,PASS,fetch( absent
+no_xhr,PASS,XMLHttpRequest absent
+no_WebSocket,PASS,WebSocket absent
+no_localStorage,PASS,localStorage absent
+no_indexedDB,PASS,indexedDB absent
+no_placeOrder,PASS,placeOrder absent
+no_sendOrder,PASS,sendOrder absent
+no_modifyWeights,PASS,modifyWeights absent
+no_modifySignal,PASS,modifySignal absent
+dashboard_calculates_signals_false,PASS,policy visible
+dashboard_modifies_data_false,PASS,policy visible
+read_only_shadow_only,PASS,all records shadow_only
+operative_and_full_view,PASS,view modes present
+v21_file_exists,PASS,/mnt/c/allenmatrix/reports/dashboard/professional_allen_dashboard_v21.html
+audit_csv_exists,PASS,audit csv
+errors_csv_exists,PASS,errors csv
