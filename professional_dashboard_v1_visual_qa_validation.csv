@@ -1,0 +1,21 @@
+check,status,evidence
+chart_layout_stable,PASS,chart uses 100vh cabin layout with full-height central area
+not_operable_not_invasive,PASS,blocker hidden; warning moved to decision panel
+current_signal_separated,PASS,current signal and daily stop blocks separated
+es_wait_vs_strong_ok_copy,PASS,header copy separates WAIT from daily stop classification
+raw_json_removed_from_breakdowns,PASS,breakdowns format object values without JSON.stringify
+right_panel_legible,PASS,right panel labels present
+bottom_panel_legible,PASS,bottom panel details present
+layers_still_present,PASS,visual layers still present
+assets_14,PASS,"ES,NQ,RTY,YM,FDAX,GC,CL,SI,HG,QG,SPX,VX,US30Y,PLG"
+es_state_wait,PASS,ES direction_display=WAIT
+es_daily_stop_strong_ok,PASS,ES daily stop=STRONG_OK
+dashboard_read_only,PASS,read-only policy visible
+no_fetch,PASS,no fetch/XMLHttpRequest
+no_websocket,PASS,no WebSocket
+no_localStorage,PASS,no localStorage/indexedDB
+no_order_or_mutation_functions,PASS,no order/mutation functions
+shadow_only_policy,PASS,all records shadow_only
+production_intact,PASS,dashboard/reports only
+screenshots,PASS,screenshots skipped because renderer unavailable
+visual_qa_artifacts,PASS,audit/fix/pdf exist
