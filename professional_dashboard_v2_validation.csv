@@ -1,0 +1,51 @@
+check,status,evidence
+html_parse,PASS,scripts=2 styles=1 ids=25
+js_node_check,PASS,/mnt/c/allenmatrix/tmp/professional_dashboard_v2_check.js
+assets_loaded_14,PASS,"ES,NQ,FDAX,RTY,YM,GC,CL,SI,HG,QG,SPX,VX,US30Y,PLG"
+asset_change_control,PASS,asset selector and watchlist handlers present
+timeframe_change_control,PASS,timeframe selector handler present
+layers_work,PASS,layer toggles present
+buy_marker_logic,PASS,BUY marker gated by active trade
+sell_marker_logic,PASS,SELL marker gated by active trade
+wait_no_active_trade,PASS,trade levels only in isActiveTrade
+not_operable_no_active_trade,PASS,NOT_OPERABLE compact records inactive
+daily_stop_not_signal,PASS,mandatory copy present
+no_fetch,PASS,no fetch/XMLHttpRequest
+no_websocket,PASS,no WebSocket
+no_localStorage,PASS,no localStorage/indexedDB
+no_order_or_mutation_functions,PASS,forbidden mutation terms absent
+dashboard_calculates_signals_false,PASS,policy visible
+dashboard_modifies_data_false,PASS,policy visible
+asset_ES_loads,PASS,NOT_OPERABLE
+asset_NQ_loads,PASS,NOT_OPERABLE
+asset_FDAX_loads,PASS,NOT_OPERABLE
+asset_RTY_loads,PASS,NOT_OPERABLE
+asset_YM_loads,PASS,NOT_OPERABLE
+asset_GC_loads,PASS,ACTIVE_SHORT
+asset_CL_loads,PASS,NOT_OPERABLE
+asset_SI_loads,PASS,NOT_AVAILABLE
+asset_HG_loads,PASS,NOT_AVAILABLE
+asset_QG_loads,PASS,NOT_AVAILABLE
+asset_SPX_loads,PASS,NOT_AVAILABLE
+asset_VX_loads,PASS,NOT_AVAILABLE
+asset_US30Y_loads,PASS,NOT_AVAILABLE
+asset_PLG_loads,PASS,NOT_AVAILABLE
+priority_GC_state_safe,PASS,GC state=ACTIVE_SHORT active_trade=True
+priority_CL_state_safe,PASS,CL state=NOT_OPERABLE active_trade=False
+priority_NQ_state_safe,PASS,NQ state=NOT_OPERABLE active_trade=False
+priority_ES_state_safe,PASS,ES state=NOT_OPERABLE active_trade=False
+priority_YM_state_safe,PASS,YM state=NOT_OPERABLE active_trade=False
+priority_FDAX_state_safe,PASS,FDAX state=NOT_OPERABLE active_trade=False
+priority_RTY_state_safe,PASS,RTY state=NOT_OPERABLE active_trade=False
+no_model_SI_not_available,PASS,SI state=NOT_AVAILABLE
+no_model_QG_not_available,PASS,QG state=NOT_AVAILABLE
+no_model_PLG_not_available,PASS,PLG state=NOT_AVAILABLE
+no_model_US30Y_not_available,PASS,US30Y state=NOT_AVAILABLE
+no_model_VX_not_available,PASS,VX state=NOT_AVAILABLE
+no_model_SPX_not_available,PASS,SPX state=NOT_AVAILABLE
+no_model_HG_not_available,PASS,HG state=NOT_AVAILABLE
+backup_exists,PASS,/mnt/c/allenmatrix/reports/dashboard/backups/professional_allen_dashboard_before_v2_20260604_222720.html
+v2_artifacts_exist,PASS,dashboard/index/audit written
+screenshots,PASS,Capturas no generadas por falta de renderer.
+production_intact,PASS,Only dashboard/research files were written.
+shadow_only,PASS,all records policy shadow_only

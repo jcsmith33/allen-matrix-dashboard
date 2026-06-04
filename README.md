@@ -1,10 +1,14 @@
-# Allen Matrix Professional Dashboard V1
+# Allen Matrix Professional Dashboard V2
 
-Static read-only publication of the Allen Matrix Professional Dashboard V1.
+Static read-only publication of the Allen Matrix Professional Dashboard V2.
 
-- Main dashboard: `index.html`
-- Original dashboard file: `professional_allen_dashboard_v1.html`
+- Main entry: `index.html`
+- V2 dashboard: `professional_allen_dashboard_v2.html`
+- Current alias: `professional_allen_dashboard_v1.html`
+- Explainable dashboard: `explainable_allen_dashboard.html`
 - Per-asset sheets: `explainable_sheets/`
+- V2 validation: `professional_dashboard_v2_validation.csv`
+- V2 audit notes: `professional_dashboard_v2_trading_chart_ui.md` and `professional_dashboard_v2_visual_gap_audit.md`
 
 Policy preserved from the generated dashboard:
 
